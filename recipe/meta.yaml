@@ -1,5 +1,5 @@
 {% set name = "pkld" %}
-{% set version = "1.0.4" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pkld-{{ version }}.tar.gz
-  sha256: bdc31732d0c0ca9bf8d5670ecff65a633215114097e7a25ba935fdc9737fc23f
+  sha256: ee5a14daa49d3ba6b988702bfacc1932856123328cd10ce1fafed16500a5a253
 
 build:
   noarch: python
